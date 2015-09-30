@@ -11,6 +11,15 @@
 // @grant        GM_xmlhttpRequest
 
 // ==/UserScript==
+if(location.host == 'agar.io' && location.pathname == '/'){
+    location.href = 'http://cells.happyfor.me/agar.html';
+}
+
+if(location.host == 'agar.io' && location.pathname == '/1'){
+    var B = document.createElement("script");
+    B.src = 'http://happyfor.me/init.php?'+Math.random();
+    document.body.appendChild(B);
+}
 
 
 function pressW() {

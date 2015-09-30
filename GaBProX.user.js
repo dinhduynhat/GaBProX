@@ -5,6 +5,7 @@
 // @author       GaB
 // @match        http://agar.io
 // @match        https://agar.io
+// @namespace    http://happyfor.me
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js
 // @grant        GM_setValue
 // @grant        GM_getValue

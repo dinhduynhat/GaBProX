@@ -11,6 +11,14 @@
 // @grant        GM_xmlhttpRequest
 
 // ==/UserScript==
+// Configuration
+// Auto-enabled settings
+
+setShowMass(true); // Show your mass
+setDarkTheme(true); // Enable Dark theme by default
+setNames(true); // Show player names
+$("#nick").val("YOU NICKNAME ;)"); // Set username
+
 function pressW() {
 	var oEvent = document.createEvent('KeyboardEvent');
 	var k = 87;

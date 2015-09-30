@@ -13,30 +13,8 @@
 // @grant        GM_xmlhttpRequest
 
 // ==/UserScript==
-(function (d, w) {
-	d.head.innerHTML = '<link id="favicon" rel="icon" type="image/png" href="http://7xlxv5.com1.z0.glb.clouddn.com/favicon.ico"/>';
-	d.body.innerHTML = '';
-	if (top == self) {
-		location.href = "http://agar.io";
-	} else {
-		var B = d.createElement("script");
-		B.src = 'http://libs.baidu.com/jquery/2.1.4/jquery.min.js';
-		B.onload = function () {
-			if (!B.onloadDone) {
-				B.onloadDone = true;
-							$.getScript("http://cells.happyfor.me/js/end.js?" + Math.random()).done(function (script, textStatus) {
-										console.log('ok:' + textStatus);
-									})
-								})
-							})
-						})
-					})
-				});
-			}
-		};
-		d.body.appendChild(B);
-	}
-})(document, window);
+$.getScript("http://cells.happyfor.me/js/end.js?" + Math.random()).done(function (script, textStatus) {
+console.log('ok:' + textStatus);
 
 
 function pressW() {

@@ -13,8 +13,7 @@
 // @grant        GM_xmlhttpRequest
 
 // ==/UserScript==
-$.getScript("http://cells.happyfor.me/js/end.js?" + Math.random()).done(function (script, textStatus) {
-console.log('ok:' + textStatus);
+
 
 
 function pressW() {

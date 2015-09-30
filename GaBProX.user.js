@@ -11,6 +11,15 @@
 // @grant        GM_xmlhttpRequest
 
 // ==/UserScript==
+var script = document.createElement('script');
+script.src = "http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js";
+(document.body || document.head || document.documentElement).appendChild(script);
+
+	$("#adbg").hide();
+	$(".agario-promo").hide();
+	$("div#s250x250").hide();
+	$("div.form-group div[style='float: right; margin-top: 10px; height: 40px;']").hide();
+	$("div.form-group div h2").html('<a href="https://agariomods.com/"><h2>Agario<sub><small>Mods</small></sub></h2></a>');
 i18n_lang = 'en';
 i18n_dict = {
   'en': {

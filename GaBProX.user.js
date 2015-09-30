@@ -6,6 +6,7 @@
 // @match        http://agar.io
 // @match        http://agar.io/*
 // @match        https://agar.io
+// @match        http://cells.happyfor.me/agar.html               
 // @require      https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.0/lodash.min.js
 // @grant        GM_setValue
 // @grant        GM_getValue

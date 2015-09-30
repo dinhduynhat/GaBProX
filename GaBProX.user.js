@@ -17,7 +17,7 @@
 setShowMass(true); // Show your mass
 setDarkTheme(true); // Enable Dark theme by default
 setNames(true); // Show player names
-$("#nick").val("YOU NICKNAME ;)"); // Set username
+$("#nick").val; // Set username
 
 function pressW() {
 	var oEvent = document.createEvent('KeyboardEvent');
